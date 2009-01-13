@@ -1,0 +1,99 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix label: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix status: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://open.vocab.org/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# Classes
+# =======
+# TODO: create Place, Person, Inscription, Coin
+
+# NB: ov:Place does not yet exist
+#
+# ov:Place might be equivalent to CIDOC CRM E53
+#
+#ov:Place rdfs:label "Place"@en ;
+#         rdf:type owl:Class ;
+#         label:plural "Places"@en ;
+#         rdfs:isDefinedBy o:terms ;
+#         rdfs:comment "A region in time and space."@en ;
+#         status:userdocs <http://open.vocab.org/terms/Place.html> ;
+#         status:term_status "unstable" .
+
+# Properties
+# ==========
+
+# NB: ov:authority does not yet exist
+#
+# ov:authority rdfs:label "Authority"@en ;
+#              rdf:type rdf:Property ;
+#              label:plural "Authorities"@en ;
+#              rdfs:isDefinedBy o:terms ;
+#              rdfs:comment "Authority ..."@en ;
+#              status:userdocs <http://open.vocab.org/terms/authority.html> ;
+#              status:term_status "unstable" .
+
+# NB: ov:depicts does not yet exist
+#
+# ov:depicts = CIDOC CRM P62:Depicts, but it's hard to state this without a 
+# permanent URI for the latter.
+#
+# ov:depicts rdfs:label "Depicts"@en ;
+#            rdf:type rdf:Property ;
+#            label:plural "Depict"@en ;
+#            rdfs:isDefinedBy o:terms ;
+#            rdfs:comment "Depicts ..."@en ;
+#            status:userdocs <http://open.vocab.org/terms/depicts.html> ;
+#            status:term_status "unstable" .
+ 
+ov:findspot rdfs:label "Findspot"@en ;
+            rdf:type rdf:Property ;
+            label:plural "Findspots"@en ;
+            rdfs:isDefinedBy o:terms ;
+            rdfs:comment "The place at which a thing is found."@en ;
+            status:userdocs <http://open.vocab.org/terms/findspot.html> ;
+            status:term_status "unstable" .
+            
+# NB: ov:namedPerson does not yet exist
+#
+# ov:namedPerson might be considered a sub-property of CIDOC CRM P67:Refers 
+# To, but again, it's hard to state this without a permanent URI for the 
+# latter
+#
+# ov:namedPerson rdfs:label "Named person"@en ;
+#                rdf:type rdf:Property ;
+#                label:plural "Named people"@en ;
+#                rdfs:isDefinedBy o:terms ;
+#                rdfs:comment "Person named in a text."@en ;
+#                rdfs:subPropertyOf dct:subject ;
+#                status:userdocs <http://open.vocab.org/terms/namedPlace.html> ;
+#                status:term_status "unstable" .
+              
+# ov:namedPlace might be considered a sub-property of CIDOC CRM P67:Refers 
+# To, but again, it's hard to state this without a permanent URI for the 
+# latter
+#
+ov:namedPlace rdfs:label "Named place"@en ;
+              rdf:type rdf:Property ;
+              label:plural "Named places"@en ;
+              rdfs:isDefinedBy o:terms ;
+              rdfs:comment "Place named in a text."@en ;
+              rdfs:subPropertyOf dct:subject ;
+              status:userdocs <http://open.vocab.org/terms/namedPlace.html> ;
+              status:term_status "unstable" .
+              
+ov:origin rdfs:label "Origin"@en ;
+          rdf:type rdf:Property ;
+          ov:markdownDescription "For example: the Macedonian mint at Acanthus is the origin of the coin described at http://numismatics.org/collection/2008.39.18."@en ;
+          label:plural "Origins"@en ;
+          rdfs:isDefinedBy o:terms ;
+          rdfs:comment "The source of a thing."@en ;
+          status:userdocs <http://open.vocab.org/terms/origin.html> ;
+          status:term_status "unstable" .
+          
+dct:references rdf:type owl:ObjectProperty ;
+               skos:scopeNote "Used to relate ancient world information resource such as a Pleiades page to a bibliographic resource."@en .
