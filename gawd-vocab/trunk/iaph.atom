@@ -1,0 +1,25 @@
+<feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:ov="http://open.vocab.org/terms/"
+  >
+     
+  <title>Inscriptions of Aphrodisias</title>
+  <link href="http://insaph.kcl.ac.uk/iaph2007/inscriptions/index.html"/>
+  <updated>2007-08-07T00:00:00Z</updated>
+  <author>
+    <name>Charlotte M. Roueché</name>
+  </author>
+  <id>urn:uuid:1bd1f40e-3351-47f0-9acb-b13374db24e0</id>
+
+  <entry>
+    <title>12.215. Honours for M. Aurelius [·· ? ··]os, long-distance runner</title>
+    <link rel="alternate" href="http://insaph.kcl.ac.uk/iaph2007/iAph120215.html"/>
+    <link rel="http://open.vocab.org/terms/namedPlace" href="http://pleiades.stoa.org/places/638753"/>    
+    <link rel="http://open.vocab.org/terms/findspot" href="http://pleiades.stoa.org/places/638753"/>
+    <id>urn:uuid:537fb911-5151-4a69-9986-47b095b55ad5</id>
+    <updated>2007-08-07T00:00:00Z</updated>
+    <summary>A plain white marble statue base shaft (H. 1.18 x W. 0.545 x D. 0.67); the block is damaged above but the upper edge survives.</summary>
+    <content type="text/xml" src="http://insaph.kcl.ac.uk/iaph2007/xml/iAph120215.xml"/>
+  </entry>
+  
+</feed>

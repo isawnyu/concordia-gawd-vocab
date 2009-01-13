@@ -1,0 +1,43 @@
+<feed
+  xmlns="http://www.w3.org/2005/Atom"
+  >
+     
+  <title>Ancient World Places</title>
+  <link href="http://pleiades.stoa.org"/>
+  <updated>2007-08-07T00:00:00Z</updated>
+  <author>
+    <name>Tom Elliot</name>
+  </author>
+  <id>urn:uuid:4e9bc5cb-46a4-4ffb-909b-24bf5c934554</id>
+
+  <entry>
+    <title>Aphrodisias/Ninoe</title>
+    <link rel="alternate" href="http://pleiades.stoa.org/places/638753"/>
+    <link rel="http://purl.org/dc/terms/references" href="http://insaph.kcl.ac.uk/iaph2007/xml/iAph120215.xml"/>
+    <id>urn:uuid:1a91b0be-62d3-491e-afac-247f54f4bb45</id>
+    <updated>2007-08-07T00:00:00Z</updated>
+    <summary>An ancient settlement, attested during the Classical, Roman and Late Antique periods (modern location: Geyre). It was known in antiquity by the names: Aphrodisias and Ninoe.</summary>
+    <content type="xhtml">
+      <div>
+        <p class="field">
+        <label><span>Modern Location</span>:</label>
+        <span class="" id="parent-fieldname-modernLocation">
+            Geyre
+        </span>
+        </p>
+        <div class="field" id="pleiades-features">
+        <label><span>Features</span>:</label>
+        <ul>
+        <li>
+        <a href="http://pleiades.stoa.org/features/542833571">Aphrodisias</a>
+        <a href="http://pleiades.stoa.org/features/542833572">Ninoe</a>
+        @ 
+        <a href="http://pleiades.stoa.org/locations/11616208">Point 11616208</a>
+        </li>
+        </ul>
+        </div>
+      </div>
+    </content>
+  </entry>
+  
+</feed>
